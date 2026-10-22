@@ -1,0 +1,17 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.preferences.importModuleSpecifierEnding": "js",
+  "editor.formatOnSave": false,
+  "editor.rulers": [110],
+  "files.eol": "\n",
+  "files.exclude": {
+    "**/.gradle": true
+  },
+  "search.exclude": {
+    "public/data": true,
+    "dist": true,
+    "android/**/build": true,
+    "android/app/src/main/assets/public": true,
+    "package-lock.json": true
+  }
+}

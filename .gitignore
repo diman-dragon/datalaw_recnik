@@ -1,0 +1,25 @@
+node_modules/
+dist/
+release/
+.data-cache/
+*.log
+.DS_Store
+
+# Собранный словарь (десятки МБ) — генерируется: npm run data:build; образец: npm run data:sample
+public/data/*
+!public/data/.gitkeep
+
+# Android: папку android/ рекомендуется коммитить; игнорируем только артефакты сборки
+android/.gradle/
+android/build/
+android/app/build/
+android/app/src/main/assets/public/
+android/app/src/main/assets/capacitor.config.json
+android/app/src/main/assets/capacitor.plugins.json
+android/capacitor-cordova-android-plugins/
+android/local.properties
+android/.idea/
+*.iml
+
+# ВАЖНО: signing/datalaw_recnik.keystore КОММИТИТСЯ (публичный ключ, см. README)
+__pycache__/

@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "github.vscode-github-actions",
+    "redhat.vscode-yaml",
+    "vscjava.vscode-gradle",
+    "editorconfig.editorconfig"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "dev",
+      "type": "npm",
+      "script": "dev",
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "vite",
+        "pattern": { "regexp": "^$" },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "VITE v",
+          "endsPattern": "Local:"
+        }
+      }
+    },
+    { "label": "check (types + tests)", "type": "npm", "script": "check", "problemMatcher": "$tsc" },
+    { "label": "android: sync", "type": "npm", "script": "cap:sync", "problemMatcher": [] },
+    { "label": "android: open Android Studio", "type": "npm", "script": "android:open", "problemMatcher": [] },
+    { "label": "android: run on device", "type": "npm", "script": "android:run", "problemMatcher": [] },
+    { "label": "android: debug APK", "type": "npm", "script": "android:debug", "problemMatcher": [] }
+  ]
+}
